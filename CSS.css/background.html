@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information </p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+            <label
+            for="first name">ENTER YOUR FIRST NAME:<input id="first-name"
+            type="text" required/></label><br><br>
+            <label
+            for="last name">ENTER YOUR LAST NAME:<input id="last-name"
+            type="text" required/></label><br><br>
+            <label for="email"> Enter your Email:<input id="email" type="email"required/></label><br><br>
+            <label
+            for="new-password ">Create a New Password : <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required/></label>
+            <fieldset
+            <label><input type=radio name="account-type"/>Personal Account</label><br><br>
+            <label><input type=radio name="account-type"/>Busniess Account</label><br><br>
+            <label><input type="checkbox" required />I accept the terms and conditions</label><br><br>
+
+           
+            </fieldset>
+            <fieldset></fieldset>
+            <input type="submit" value="submit"/>
+
+
+    </form>
+    
+</body>
+</html>

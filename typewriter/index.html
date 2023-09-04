@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typewriter</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 100vh;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 12rem;
+        font-family: monospace;
+        color: #fff;
+        font-size: 1.2rem;
+      }
+
+      p .type {
+        color: #ff0d12;
+        font-size: 1.5rem;
+        margin-right: 5px;
+      }
+
+      .cursor {
+        border: 2px solid #ddd;
+        background-color: #ddd;
+        animation: blink 0.8s infinite;
+      }
+      .typing{
+        animation: none;
+
+      }
+
+      @keyframes blink {
+        0% {
+
+          opacity: 1;
+        }
+        49% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 0;
+        }
+        99% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+
+      .container{
+          margin-top: 20px;
+      }
+      h3{
+        color: purple;
+        font-size: 20px;
+        margin-top: 30px;
+      }
+     ul li {
+        padding: 10px;
+        border-bottom: 2px solid white;
+        margin: 10px;
+
+      }
+
+      button{
+        border-radius: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>I am <span class="type"></span><span class="cursor"></span></p>
+
+<div class="container">
+  <h3>list of codar courses</h3>
+  <ul>
+    <li>Full stack Development</li>
+    <li>UI/UX design</li>
+    <li>cybersecurity</li>
+    <li>Data analysis</li>
+  </ul>
+
+  <button>Hide</button>
+</div>
+    <script src="typer.js"></script>
+  </body>
+</html>

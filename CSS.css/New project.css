@@ -1,0 +1,83 @@
+.container{
+    width: 30%;
+    height: auto;
+    padding: 5% 5%;
+    background-color: purple;
+    border-right: 10px dotted red;
+    border-left: 10px dotted red;
+    border-bottom: 10px dotted red;
+    border-top: 10px dotted red;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.codar{
+    background-color: #7a2048;
+    width: 40%;
+    padding: 20%;
+    color: white;
+    margin: 0 auto;
+    
+
+}
+.codar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.codar h1 span{
+    font-family: sans-serif;
+    font-size: 3rem;
+    text-decoration: underline red;
+    
+
+}
+.codar p{
+    color: black;
+    font-size: larger;
+
+}
+.codar p span{
+    color: white;
+    font-family: sans-serif;
+}
+.codar input{
+    background-color: crimson;
+    border: none;
+    text-align:center;
+    padding: 5% 5%;
+    border-radius: 40px;
+}
+
+.hero-section img{
+width: 100%;
+}
+
+.hero-text{
+    position: absolute;
+    top: 0;
+}
+.hero-section{
+    position: relative;
+    top: 0;
+}
+
+
+.hero-section::before{
+    content: " ";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.hero-section h1{
+    color: #7a2048;
+    
+}
+.hero-section p{
+    color: aqua;
+}
+.hero-section button a{
+    color: rgb(255, 0, 140);
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-top: 5%;
+
+}
+
+h2{
+    text-align: center;
+    color: aqua;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 5%;
+}
+h2 span{
+    color: aquamarine;
+}
+body{
+    background-color: grey;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.grid-1{
+    grid-column: span 4;
+}
+
+.grid-1 div{
+    box-shadow: 0 5px 5px 0 black;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.grid-1 img{
+    width: 20%;
+    border: 2px solid orchid;
+    border-radius: 70px;
+    
+    
+}
+
+.grid-1{
+    background-color: darkgray;
+    color: aliceblue;
+    border-radius: 60px;
+}
+
+.img-section{
+display: flex;
+}
+.grid-1 h3{
+    font-size: 100;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+    
+    
+
+.grid-1 p{
+    font-size: small;
+    padding: 5%;
+    margin: 5%;
+}
+.grid-1:nth-of-type(2){
+    grid-row: span 2;
+}
+.grid-1:nth-of-type(4){
+    grid-row: span 2;
+}
+.grid-1:nth-child(7){
+    grid-row: span 2;
+}
+
+
+.grid-1:nth-child(5){
+    grid-row: span 2;
+}
+.grid-1:nth-child(6){
+    grid-row: span 2;
+}

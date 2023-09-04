@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+h1{
+     color: #8a2be2; 
+    font-family: 'Roboto', sans-serif;
+
+}
+img{ width:500px ;
+    height: 400px;
+
+}
+.paragraph{color: aqua;
+
+}
+.street-img{border-radius: 50rem;
+
+}
+.parent .child{
+    width: 200px;
+    height:200px;
+
+
+}
+.parent .child h1 {
+    color: black;
+}
+
+.child{
+    width: 200px;
+    height: 100px;
+    color: black;
+}
+.parent, .child, .son{
+    width: 200px;
+    height: 200px;
+    color: blue;
+}
+.sam, .david, .john {
+    font-size: 3rem;
+    color: blueviolet;
+}
+
+.paragraph{
+    color: aqua;
+    width: 200px;
+    height: 100px;
+
+    }
+
+
+
+section{
+    background-image: url(./imag.css/IMG_0849.JPG);
+    height: 100vh;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: contain;
+}
+.too{
+    border: 3px  rgb(195, 0, 255) solid;
+}
+
+.div{
+    width:30% ;
+    margin: 5%;
+    background-color: blue;
+    border: 10px solid;
+    padding: 5%;
+
+
+}
+

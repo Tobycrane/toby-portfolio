@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* gap: 30px; */
+    /* grid-template-columns: repeat(auto-fit, minmax 250px, 1fr); */
+}
+
+.contact-section{
+    padding: 150px 0 150px;
+
+}
+
+.contact-text-1{
+    grid-column: span 4;
+    background-image: linear-gradient(purple, aqua);
+    padding: 70px;
+}
+
+.contact-text-2{
+    grid-column: span 8;
+    border: 2px solid rgba(5, 1, 5, 0.79);
+    
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 15px;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 15px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 15px;
+}
+.sub-heading{
+    line-height: 30px;
+}
+
+.icons{
+    
+    text-align: left;
+    padding-top: 80%;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.heading h3{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading p{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.contact-padding{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    height: auto;
+}
+
+.input-control input{
+    width: 80%;
+    border: 5px solid silver;
+    padding: 15px;
+    border-radius:5px ;
+}
+
+.input-control select{
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid silver;
+    border-bottom: none;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    border: 5px solid silver;
+}
+.service{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    padding: 10%;
+
+}
+.service div {
+    grid-column: span 6;
+    
+}
+
+h3{
+    padding-top: 10%;
+}
+
+.service div p{
+    padding: 5%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+
+
+.started button{
+    color: purple;
+    background-color:aqua;
+    border-radius: 30px;
+    width: 80%;
+     text-align: center; 
+    padding: 1rem 2rem;
+    border: 2px solid aqua;
+    padding-bottom: 30px;
+    
+}
+
+div.started{
+    width: 80%;
+    margin: 0 20%;
+}
